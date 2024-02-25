@@ -1,2 +1,2 @@
 # cooldev.in
-My personal website for sharing articles on Linux, HomeLab etc
+My personal website for sharing articles on Linux, HomeLab etc.
