@@ -78,10 +78,13 @@ markdown_extensions:
 nav:
   - Personal:
     - personal/index.md
+    - personal/vimclutch.md
   - Homelab:
     - homelab/index.md
   - Linux:
     - linux/index.md
+    - linux/fixing_non_booting_kernel.md
+    - linux/implement_sys_call_linux.md
   - Gaming:
     - gaming/index.md
   - Research:
