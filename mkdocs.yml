@@ -1,6 +1,14 @@
-site_name: cooldev
+site_name: Cooldev's Lab
+site_url: https://cooldev.in
+# Repository
+repo_name: gopi487krishna/cooldev.in
+repo_url: https://github.com/gopi487krishna/cooldev.in
+
 theme:
   name: material
+  icon:
+    logo: fontawesome/solid/shield-cat
+  favicon: images/favicon.svg
   features:
     - navigation.tabs
     - navigation.sections
@@ -27,7 +35,7 @@ theme:
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
       primary: black
-      accent: deep orange
+      accent: orange
       toggle:
         icon: material/toggle-switch-off
         name: Switch to system preference
@@ -73,21 +81,23 @@ markdown_extensions:
       custom_checkbox: true
   - pymdownx.arithmatex:
       generic: true
-
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
 nav:
-  - Personal:
+  - 🌱 Personal:
     - personal/index.md
     - personal/vimclutch.md
-  - Homelab:
+  - 🖥️ Homelab:
     - homelab/index.md
-  - Linux:
+  - 🐧 Linux:
     - linux/index.md
     - linux/fixing_non_booting_kernel.md
     - linux/implement_sys_call_linux.md
-  - Gaming:
+  - 🎮 Gaming:
     - gaming/index.md
-  - Research:
+  - 🔍 Research:
     - research/index.md
 
 extra_javascript:
